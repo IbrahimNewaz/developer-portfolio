@@ -91,8 +91,8 @@
   background-repeat: no-repeat;
   background-position: top left, right bottom;
   background-color: #fff8f3;
-  max-width: 1600px;
-  max-height: 840px;
+  /* max-width: 1600px;
+  max-height: 840px; */
 }
 
 nav {
@@ -105,6 +105,7 @@ nav {
 .nav-titel {
   font-size: 45px;
   font-weight: bolder;
+  padding-left: 40px;
 }
 
 nav ul {
@@ -146,28 +147,33 @@ nav li a {
   font-size: 85px;
   font-weight: bold;
   color: #181818;
+  padding-bottom: 20px;
 }
 .banner-description {
   font-size: 18px;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .profile-pic {
   width: 584px;
   height: 676px;
+  padding-right: 50px;
 }
 
 /*-------------------------------*/
 
 /* 🟩 Main Tag CSS Coding Statrts From Here 🟩 */
 main {
-  max-width: 11040px;
+  max-width: 1140px;
+  max-height: 550px;
   margin: 0 auto;
   background-color: #fff8f3;
   margin: 130px 230px;
+  border-radius: 10px;
 }
 .about {
-  border-radius: 10px;
+
   padding: 130px 150px;
   text-align: center;
   margin-top: 130px 150px;
