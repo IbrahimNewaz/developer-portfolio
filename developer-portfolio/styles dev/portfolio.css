@@ -66,6 +66,17 @@
 /*🚩 End of ZX - Shared Style 🚩*/
 
 /* AX-01 nav styles */
+/*This is header tag class head*/
+.head
+{
+    background-image: url(/portfolio-resources/images/developer.png),url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    background-color: #FFF8F3;
+    max-width: 1600px;
+    max-height: 840px;
+
+}
 
 nav {
   display: flex;
@@ -102,6 +113,7 @@ nav li a {
 {
     display: flex;
     justify-content: space-between;
+    margin: 0 35px 0 230px;
 }
 .banner-content
 {
