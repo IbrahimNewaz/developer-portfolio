@@ -16,7 +16,11 @@
   color: #474747;
 }
 
-.botom-1 /* this botom class will be used in top and bottom */ {
+.dark-3 {
+  color: #757575;
+}
+
+.botom-1 /* this botom class will be used in top nav and bottom footer */ {
   font-size: 20px;
   font-weight: bold;
   color: #ffffff;
@@ -26,6 +30,37 @@
   border-radius: 5px;
   border: none;
   background-color: #fd6e0a;
+}
+
+.botom-2 /*this botom class will be used banner and mid section*/
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    
+    width: 200px;
+    height: 64px;
+    padding: 19px 17px 18px 17px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fd6e0a;
+    margin-right: 30px;
+
+}
+
+.botom-3 /* this botom class will be useing for banner content */
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fd6e0a;
+
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: #fd6e0a solid 1px;
+    background-color: #FFF8F3;
+    padding: 19px 24px;
+    
 }
 
 /*🚩 End of ZX - Shared Style 🚩*/
@@ -59,4 +94,21 @@ nav li a {
   text-decoration: none;
   font-size: 20px;
   /* color: #474747; */
+}
+
+/* 🟥 Banner part Styling 🟥*/
+
+.banner-greatings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-titel {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
 }
