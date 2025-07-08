@@ -8,6 +8,15 @@
 
 /*🚩 ZX - Shared Style 🚩*/
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .secondary-bg {
+  background-color: #fff8f3;
+} */
+
 .text-primary {
   color: #fd6e0a;
 }
@@ -32,61 +41,58 @@
   background-color: #fd6e0a;
 }
 
-.botom-2 /*this botom class will be used banner and mid section*/
-{
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    
-    width: 200px;
-    height: 64px;
-    padding: 19px 17px 18px 17px;
-    border-radius: 5px;
-    border: none;
-    background-color: #fd6e0a;
-    margin-right: 30px;
+.botom-2 /*this botom class will be used banner and mid section*/ {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
 
+  width: 200px;
+  height: 64px;
+  padding: 19px 17px 18px 17px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fd6e0a;
+  margin-right: 30px;
 }
 
-.botom-3 /* this botom class will be useing for banner content */
-{
-    font-size: 20px;
-    font-weight: bold;
-    color: #fd6e0a;
+.botom-3 /* this botom class will be useing for banner content */ {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fd6e0a;
 
-    width: 160px;
-    height: 64px;
-    border-radius: 5px;
-    border: #fd6e0a solid 1px;
-    background-color: #FFF8F3;
-    padding: 19px 24px;
-    
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  border: #fd6e0a solid 1px;
+  background-color: #fff8f3;
+  padding: 19px 24px;
 }
 
-.section-titel
-{
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
+.section-titel {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  padding-bottom: 30px;
 }
-.section-description
-{
-    font-size: 18;
-    font-weight: 400;
-    color: #757575;
+.section-description {
+  font-size: 18;
+  font-weight: 400;
+  color: #757575;
+  padding-bottom: 30px;
 }
 
 /*🚩 End of ZX - Shared Style 🚩*/
 
 /* AX-01 nav styles */
 /*This is header tag class head*/
-.head
-{
-    background-image: url(/portfolio-resources/images/developer.png),url(/portfolio-resources/images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, right bottom;
-    background-color: #FFF8F3;
-
+.head {
+  background-image: url(/portfolio-resources/images/developer.png),
+    url(/portfolio-resources/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+  background-color: #fff8f3;
+  max-width: 1600px;
+  max-height: 840px;
 }
 
 nav {
@@ -120,17 +126,15 @@ nav li a {
 
 /* 🟥 Banner part Styling 🟥*/
 
-.banner
-{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 35px 0 230px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
 }
-.banner-content
-{
-    max-width: 580px;
-    max-height: 356px;
-    margin: 60px 30px;
+.banner-content {
+  max-width: 580px;
+  max-height: 356px;
+  margin: 60px 30px;
 }
 
 .banner-greatings {
@@ -148,9 +152,52 @@ nav li a {
   font-weight: 400;
 }
 
-.profile-pic
+.profile-pic {
+  width: 584px;
+  height: 676px;
+}
+
+/*-------------------------------*/
+
+/* 🟩 Main Tag CSS Coding Statrts From Here 🟩 */
+main {
+  max-width: 11040px;
+  margin: 0 auto;
+  background-color: #fff8f3;
+  margin: 130px 230px;
+}
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px 150px;
+}
+
+.section-description
 {
-    width: 584px;
-    height: 676px;
-    
+    font-size: 18px;
+    font-weight: 400;
+    color:#757575;
+    line-height: 30px;
+}
+
+.about-items
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.item-titel
+{
+    font-size: 20;
+    font-weight: lighter;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
 }
