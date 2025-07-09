@@ -80,9 +80,8 @@
   color: #757575;
   padding-bottom: 30px;
 }
-.text-align-center
-{
-    text-align: center;
+.text-align-center {
+  text-align: center;
 }
 
 /*🚩 End of ZX - Shared Style 🚩*/
@@ -178,65 +177,109 @@ main {
   border-radius: 10px;
 }
 .about {
-
   padding: 130px 150px;
   text-align: center;
   margin-top: 130px 150px;
 }
 
-.section-description
-{
-    font-size: 18px;
-    font-weight: 400;
-    color:#757575;
-    line-height: 30px;
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
 }
 
-.about-items
-{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-right: 20px 20px 20px 20px;
-    text-align: center;
+.about-items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 20px 20px 20px 20px;
+  text-align: center;
 }
 
-.item-titel
-{
-    font-size: 20;
-    font-weight: lighter;
+.item-titel {
+  font-size: 20;
+  font-weight: lighter;
 }
 
-.item-description{
-    font-size: 20px;
-    font-weight: bold;
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* My Skills Part Coding Start in here */
 
-.skill
-{
-    text-align: center;
-    padding: 130px
+.skill {
+  text-align: center;
+  padding: 130px;
+  align-items: center;
 }
 
-.section-titel-1
-{
-    font-size: 35px;
-    font-weight: bold;
-    color:#181818;
-    padding-bottom: 30px;
+.section-titel-1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  padding-bottom: 30px;
 }
 
-.section-description-1
-{
-    font-size: 18;
-    font-weight: 400;
-    color:#757575;
-    line-height: 30px;
-    text-align: center;
-    padding-bottom: 50px;
+.section-description-1 {
+  font-size: 18;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 /*card desigin seection*/
+
+.skill-card {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .skill-card-des {
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    text-align: left;
+    box-shadow: 5px 3px 3px 5px #18181810;
+  }
+  
+  .skill-card-des img {
+    width: 44px;
+    height: 40px;
+    /* padding: 30px 0 40px 27px; */
+  
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+  }
+  
+  .skill-titel {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 20px;
+  
+  }
+  
+  .skill-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+  
+  }
+
+
+
