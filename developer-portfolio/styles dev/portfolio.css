@@ -279,45 +279,10 @@ main {
   text-align: left;
 }
 
+/* 🔄 Resume Part Styles 🔄 */
 
-/* Resume Part Styles */
-
-.edu-drg
+/* .resume-summery
 {
-  justify-content: baseline;
-  width: 575px;
-  height: 175;
-  /* margin: 20px 20px; */
-  padding-bottom: 175px;
-
-}
-
-.line
-{
-  font-weight: 1px;
-  color: D1D1D1;
-}
-
-.edu h4
-{
-  font-size: 25px;
-  font-weight: bold;
-  color: #474747;
-  margin-bottom: 10px;
-}
-
-.edu h5
-{
-  font-size: 20px;
-  font-weight: 500;
-  color: #757575 ;
-  margin-bottom: 20px;
-}
-
-.edu p
-{
-  font-size: 16px;
-  font-weight: lighter;
-  color: #757575;
-  margin-bottom: 30px;
-}
+  display: flex;
+  gap: 24px;
+} */
