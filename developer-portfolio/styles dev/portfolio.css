@@ -281,13 +281,11 @@ main {
 
 /* 🔄 Resume Part Styles 🔄 */
 
-.resume h3
-{
+.resume h3 {
   margin-bottom: 110px;
 }
 
-.resume-summery
-{
+.resume-summery {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -296,37 +294,32 @@ main {
 }
 
 /* resume part 1st child styles */
-.edu
-{
+.edu {
   width: 510px;
   height: 175px;
 }
-.edu h3
-{
+.edu h3 {
   font-size: 30px;
   font-weight: bold;
-  color:#474747;
+  color: #474747;
   margin-bottom: 30px;
 }
 
-.edu-deg h4
-{
+.edu-deg h4 {
   font-size: 25px;
   font-weight: bold;
   color: #474747;
   margin-bottom: 10px;
 }
 
-.edu-deg h5
-{
+.edu-deg h5 {
   font-size: 20px;
   font-weight: 500;
   color: #757575;
   margin-bottom: 20px;
 }
 
-.edu-deg p
-{
+.edu-deg p {
   font-weight: 16px;
   font-weight: lighter;
   color: #757575;
@@ -334,49 +327,56 @@ main {
   margin-bottom: 30px;
 }
 
-.hr-line
-{
-  color: #D1D1D1;
+.hr-line {
+  color: #d1d1d1;
   font-weight: 1px;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
 
-.exp
-{
+.exp {
   width: 510px;
   height: 175px;
 }
-.exp h3
-{
+.exp h3 {
   font-size: 30px;
   font-weight: bold;
-  color:#474747;
+  color: #474747;
   margin-bottom: 30px;
 }
 
-.exp-sum h4
-{
+.exp-sum h4 {
   font-size: 25px;
   font-weight: bold;
   color: #474747;
   margin-bottom: 10px;
 }
 
-.exp-sum h5
-{
+.exp-sum h5 {
   font-size: 20px;
   font-weight: 500;
   color: #757575;
   margin-bottom: 20px;
 }
 
-.exp-sum p
-{
+.exp-sum p {
   font-weight: 16px;
   font-weight: lighter;
   color: #757575;
   line-height: 28px;
   margin-bottom: 30px;
 }
+
+/* 🟧🟥🟩 Special alignment fot the resume dowan load button🟧🟥🟩 */
+/* 🚩❌ PLEASE DONT TOUCH IT  🚩❌*/
+.batman
+{
+  margin-top: 600px;
+  margin-bottom: 50px;
+  margin-right: 700px;
+  margin-left: 445px;
+  text-align: center;
+}
+
+/* 🟧🟥🟩 Special alignment fot the resume dowan load button🟧🟥🟩 */
+/* 🚩❌ PLEASE DONT TOUCH IT  🚩❌*/
