@@ -235,51 +235,89 @@ main {
 /*card desigin seection*/
 
 .skill-card {
-    display: flex;
-    gap: 24px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  .skill-card-des {
-    width: 300px;
-    height: 380px;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
-    text-align: left;
-    box-shadow: 5px 3px 3px 5px #18181810;
-  }
-  
-  .skill-card-des img {
-    width: 44px;
-    height: 40px;
-    /* padding: 30px 0 40px 27px; */
-  
-    margin: 0 auto;
-    padding: 30px 0 40px 0;
-  }
-  
-  .skill-titel {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-    padding-bottom: 20px;
-  
-  }
-  
-  .skill-description {
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
-    line-height: 28px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    text-align: left;
-  
-  }
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.skill-card-des {
+  width: 300px;
+  height: 380px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 5px 3px 3px 5px #18181810;
+}
+
+.skill-card-des img {
+  width: 44px;
+  height: 40px;
+  /* padding: 30px 0 40px 27px; */
+
+  margin: 0 auto;
+  padding: 30px 0 40px 0;
+}
+
+.skill-titel {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.skill-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}
 
 
+/* Resume Part Styles */
 
+.edu-drg
+{
+  justify-content: baseline;
+  width: 575px;
+  height: 175;
+  /* margin: 20px 20px; */
+  padding-bottom: 175px;
+
+}
+
+.line
+{
+  font-weight: 1px;
+  color: D1D1D1;
+}
+
+.edu h4
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.edu h5
+{
+  font-size: 20px;
+  font-weight: 500;
+  color: #757575 ;
+  margin-bottom: 20px;
+}
+
+.edu p
+{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #757575;
+  margin-bottom: 30px;
+}
